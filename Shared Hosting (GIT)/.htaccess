@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^(.*)$ /home/u202857558/public_html/web/$1 [L]

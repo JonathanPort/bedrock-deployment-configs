@@ -1,0 +1,26 @@
+#
+#	.gitignore file for Deployment of Bedrock on Shared hosting via GIT
+#
+
+# Application
+web/app/mu-plugins/*/
+web/app/upgrade
+
+# WordPress
+web/wp
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Composer
+vendor/*
+!vendor/.gitkeep
+
+# Vagrant
+bin
+.vagrant
+
+# Node Package Manager
+node_modules
